@@ -75,7 +75,7 @@ public class EtakemonManagerImpl implements EtakemonManager {
        try {
            List<User> list = new ArrayList<User>();
 
-           for (int i=0; i < listUser.size(); i++ )
+           for (int i=1; i <= listUser.size(); i++ )
            {
                if(listUser.containsKey(i))
                {
