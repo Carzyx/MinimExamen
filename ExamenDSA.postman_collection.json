@@ -1,0 +1,55 @@
+{
+	"id": "b7d3d30a-5aca-c5c3-3c42-73c27244418e",
+	"name": "ExamenDSA",
+	"description": "",
+	"order": [
+		"57962612-7975-7bb5-9e6e-4e722bff933c",
+		"5f3b73bb-c6f4-048d-4db1-a64073f2a281"
+	],
+	"folders": [],
+	"timestamp": 1492627220051,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "57962612-7975-7bb5-9e6e-4e722bff933c",
+			"headers": "",
+			"url": "http://localhost:8080/myapp/service/getUser/1",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b7d3d30a-5aca-c5c3-3c42-73c27244418e",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/myapp/service/getUser/1",
+			"description": "getUserById",
+			"descriptionFormat": "html",
+			"time": 1492628386561,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5f3b73bb-c6f4-048d-4db1-a64073f2a281",
+			"headers": "",
+			"url": "http://localhost:8080/myapp/service/getUserList",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b7d3d30a-5aca-c5c3-3c42-73c27244418e",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/myapp/service/getUser/1",
+			"description": "getUserList",
+			"descriptionFormat": "html",
+			"time": 1492628514037,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
