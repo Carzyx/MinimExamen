@@ -3,6 +3,7 @@ package Controller;
 import Model.User;
 import org.apache.log4j.Logger;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -33,8 +34,6 @@ public class EtakemonManagerImpl implements EtakemonManager {
 
     }
 
-
-
     public void updateUser(User newUser, int id)
     {
         if(listUser.containsKey(id))
@@ -42,6 +41,8 @@ public class EtakemonManagerImpl implements EtakemonManager {
             User user = listUser.get(id);
             updateUser(user, newUser);
             listUser.put(user.getId(), user);
+            logger.info("Usuario Actualizado correctamente:");
+
         }
         else
         {
@@ -56,17 +57,46 @@ public class EtakemonManagerImpl implements EtakemonManager {
             return null;
 
         }
-        return listUser.get(id);
+        User user = listUser.get(id);
+        logger.info("Usuario Obtenido correctamente:");
+        return user;
+
     }
 
     public void addObject(User user, String etakemonName) {
         EtakemonObject etakemon = new EtakemonObject(etakemonIdCount, etakemonName);
         user.setEtakemonObject(etakemon);
         etakemonIdCount++;
+        logger.info("Etakemon objeto añadido correctamente:");
+
+    }
+
+    public List<User> getUserList() {
+       try {
+           List<User> list = new ArrayList<User>();
+
+           for (int i=0; i < listUser.size(); i++ )
+           {
+               if(listUser.containsKey(i))
+               {
+                   User user = listUser.get(i);
+                   list.add(user);
+               }
+           }
+           return list;
+       }
+       catch (Exception ex)
+       {
+           logger.error("Error obteniendo lista de usuarios", ex);
+           return null;
+       }
+
     }
 
     public List<EtakemonObject> getEtakemonListByUser(User user) {
-        return user.getListEtakemon();
+        List<EtakemonObject> list =  user.getListEtakemon();
+        logger.info("Lista etakemonObject Obtenida correctamente:");
+        return list;
     }
 
 

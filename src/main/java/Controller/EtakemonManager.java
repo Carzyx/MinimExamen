@@ -13,6 +13,7 @@ public interface EtakemonManager {
     void updateUser(User user, int id);
     User getUser(int id);
     void addObject(User user, String etakemonName);
+    List<User> getUserList ();
     List<EtakemonObject> getEtakemonListByUser(User user);
 
 }
