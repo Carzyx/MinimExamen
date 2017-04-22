@@ -16,24 +16,27 @@ public class User {
     private String password;
     private String email;
 
-    private List<EtakemonObject> listEtakemon;
+    private List<EtakemonObject> listEtakemon = new ArrayList<>();
 
     public User(){}
 
     public User(int id, String name, String surname, String username, String password, String email)
     {
-        this.id = id;
-        this.name = name;
-        this.surname  = surname;
-        this.username = username;
-        this.password = password;
-        this.email = email;
-        this.listEtakemon = new ArrayList<EtakemonObject>();
+        setId(id);
+        setName(name);
+        setSurname(surname);
+        setUsername(username);
+        setPassword(password);
+        setEmail(email);
     }
 
     public int getId()
     {
         return this.id;
+    }
+    public void setId( int id)
+    {
+        this.id = id;
     }
 
     public String getName()
@@ -89,5 +92,11 @@ public class User {
     {
         return this.listEtakemon;
     }
+    public void setListEtakemon(List<EtakemonObject> listEtakemon)
+    {
+        this.listEtakemon = listEtakemon;
+    }
+
+
 
 }
