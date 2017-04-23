@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6d94bf1-236e-4b69-ab57-b4dde288571b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_40.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/View/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Controller/EtakemonObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/View/Main.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Controller/EtakemonObject.java" afterPath="$PROJECT_DIR$/src/main/java/Model/EtakemonObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controller/EtakemonManager.class" afterPath="$PROJECT_DIR$/target/classes/Controller/EtakemonManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controller/EtakemonManagerImpl.class" afterPath="$PROJECT_DIR$/target/classes/Controller/EtakemonManagerImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/User.class" afterPath="$PROJECT_DIR$/target/classes/Model/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Rest/RestService.class" afterPath="$PROJECT_DIR$/target/classes/Rest/RestService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/EtakemonManagerImplTest.class" afterPath="$PROJECT_DIR$/target/test-classes/EtakemonManagerImplTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExamenDSA.iml" afterPath="$PROJECT_DIR$/ExamenDSA.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log.out" afterPath="$PROJECT_DIR$/src/log.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controller/EtakemonManager.java" afterPath="$PROJECT_DIR$/src/main/java/Controller/EtakemonManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controller/EtakemonManagerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/Controller/EtakemonManagerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/User.java" afterPath="$PROJECT_DIR$/src/main/java/Model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Rest/RestService.java" afterPath="$PROJECT_DIR$/src/main/java/Rest/RestService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/EtakemonManagerImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/EtakemonManagerImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,7 +50,7 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1f707092-fc26-4a5b-be5e-07db51a6220b/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
+            <state relative-caret-position="792">
               <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
@@ -916,7 +902,7 @@
       <updated>1492618385782</updated>
       <workItem from="1492618390113" duration="10617000" />
       <workItem from="1492854030008" duration="52687000" />
-      <workItem from="1492989029094" duration="6000" />
+      <workItem from="1492989029094" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor: Better logger, Better Rest implementation, Add new postam functions.">
       <created>1492877737807</created>
@@ -925,7 +911,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492877737807</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add BBDD, adapted calls to BBDD.">
+      <created>1492989087331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1492989087331</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -961,11 +954,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63310000" />
+    <option name="totallyTimeSpent" value="63367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3216" height="1732" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1010,7 +1003,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor: Better logger, Better Rest implementation, Add new postam functions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor: Better logger, Better Rest implementation, Add new postam functions." />
+    <MESSAGE value="Add BBDD, adapted calls to BBDD." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add BBDD, adapted calls to BBDD." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1591,7 +1585,7 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1f707092-fc26-4a5b-be5e-07db51a6220b/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
+        <state relative-caret-position="792">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
