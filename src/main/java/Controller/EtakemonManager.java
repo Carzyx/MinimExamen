@@ -1,8 +1,8 @@
 package Controller;
 
+import Model.EtakemonObject;
 import Model.User;
 
-import java.util.HashMap;
 import java.util.List;
 
 /**

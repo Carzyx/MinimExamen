@@ -1,7 +1,298 @@
-Usuario creado
-con parametros Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.es
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
 User: 
 id = 1
+ name = 0
+ surname = miguelA
+ username = angelA
+ password = miguelAA
+ email = miguel123
+ listEtakemon = []
+ 
+Try addObect with name = Charmander
+Etakemon Charmander added
+EtakemonObject: 
+id = 1
+ nameEtakemon = Charmander
+ idEtakemon = 0
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+id = 1
+ nameEtakemon = Pikachu
+ idEtakemon = 0
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 2 obtenido correctamente:
+User: 
+id = 2
+ name = 0
+ surname = miguelB
+ username = angelB
+ password = miguelBB
+ email = migue456
+ listEtakemon = [Model.EtakemonObject@79ba973f]
+ 
+Try addObect with name = Squirtel
+Etakemon Squirtel added
+EtakemonObject: 
+id = 2
+ nameEtakemon = Squirtel
+ idEtakemon = 0
+ 
+Try addObect with name = Bulbasur
+Etakemon Bulbasur added
+EtakemonObject: 
+id = 2
+ nameEtakemon = Bulbasur
+ idEtakemon = 0
+ 
+Try create user with paramenters: Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = 0
+ surname = miguelA
+ username = angelA
+ password = miguelAA
+ email = miguel123
+ listEtakemon = []
+ 
+Try addObect with name = Charmander
+Etakemon Charmander added
+EtakemonObject: 
+id = 1
+ nameEtakemon = Charmander
+ idEtakemon = 0
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+id = 1
+ nameEtakemon = Pikachu
+ idEtakemon = 0
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 2 obtenido correctamente:
+User: 
+id = 2
+ name = 0
+ surname = miguelB
+ username = angelB
+ password = miguelBB
+ email = migue456
+ listEtakemon = [Model.EtakemonObject@62c9b4f1]
+ 
+Try addObect with name = Squirtel
+Etakemon Squirtel added
+EtakemonObject: 
+id = 2
+ nameEtakemon = Squirtel
+ idEtakemon = 0
+ 
+Try addObect with name = Bulbasur
+Etakemon Bulbasur added
+EtakemonObject: 
+id = 2
+ nameEtakemon = Bulbasur
+ idEtakemon = 0
+ 
+Try create user with paramenters: Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = 0
+ surname = miguelA
+ username = angelA
+ password = miguelAA
+ email = miguel123
+ listEtakemon = []
+ 
+Try addObect with name = Charmander
+Etakemon Charmander added
+EtakemonObject: 
+id = 1
+ nameEtakemon = Charmander
+ idEtakemon = 0
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+id = 1
+ nameEtakemon = Pikachu
+ idEtakemon = 0
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 2 obtenido correctamente:
+User: 
+id = 2
+ name = 0
+ surname = miguelB
+ username = angelB
+ password = miguelBB
+ email = migue456
+ listEtakemon = [Model.EtakemonObject@42241401]
+ 
+Try addObect with name = Squirtel
+Etakemon Squirtel added
+EtakemonObject: 
+id = 2
+ nameEtakemon = Squirtel
+ idEtakemon = 0
+ 
+Try addObect with name = Bulbasur
+Etakemon Bulbasur added
+EtakemonObject: 
+id = 2
+ nameEtakemon = Bulbasur
+ idEtakemon = 0
+ 
+Try create user with paramenters: Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = 0
+ surname = miguelA
+ username = angelA
+ password = miguelAA
+ email = miguel123
+ listEtakemon = [Model.EtakemonObject@2cdd5038, Model.EtakemonObject@79f14cc0, Model.EtakemonObject@72664fdd]
+ 
+Try addObect with name = Charmander
+Etakemon Charmander added
+EtakemonObject: 
+id = 1
+ nameEtakemon = Charmander
+ idEtakemon = 0
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+id = 1
+ nameEtakemon = Pikachu
+ idEtakemon = 0
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+User with id: 1 doesn't exist
+User with id: 1 doesn't exist
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
  name = miguelA
  surname = angelA
  username = miguelAA
@@ -19,50 +310,14 @@ id = 1
  email = miguelA@miguel.es
  listEtakemon = []
  
-User updated
+Try addObect with name = Charmander
+Something wrong ocurred adding object
+Try addObect with name = Pikachu
+Something wrong ocurred adding object
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
 User: 
-id = 1
- name = miguelA
- surname = angelA
- username = miguelAA
- password = miguel123
- email = miguelA@miguel.es
- listEtakemon = [Controller.EtakemonObject@1d637449]
- 
-Etakemon Charmander added and saved
-User: 
-id = 1
- name = miguelA
- surname = angelA
- username = miguelAA
- password = miguel123
- email = miguelA@miguel.es
- listEtakemon = [Controller.EtakemonObject@1d637449]
- 
-User updated
-User: 
-id = 1
- name = miguelA
- surname = angelA
- username = miguelAA
- password = miguel123
- email = miguelA@miguel.es
- listEtakemon = [Controller.EtakemonObject@1d637449, Controller.EtakemonObject@4a8c9b34]
- 
-Etakemon Pikachu added and saved
-User: 
-id = 1
- name = miguelA
- surname = angelA
- username = miguelAA
- password = miguel123
- email = miguelA@miguel.es
- listEtakemon = [Controller.EtakemonObject@1d637449, Controller.EtakemonObject@4a8c9b34]
- 
-Usuario creado
-con parametros Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.es
-User: 
-id = 2
+id = 0
  name = miguelB
  surname = angelB
  username = miguelBB
@@ -80,50 +335,14 @@ id = 2
  email = miguelB@miguel.es
  listEtakemon = []
  
-User updated
+Try addObect with name = Squirtel
+Something wrong ocurred adding object
+Try addObect with name = Bulbasur
+Something wrong ocurred adding object
+Try create user with paramenters: Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.esUsuario created
+with params:
 User: 
-id = 2
- name = miguelB
- surname = angelB
- username = miguelBB
- password = migue456
- email = miguelB@miguel.es
- listEtakemon = [Controller.EtakemonObject@7f63a076]
- 
-Etakemon Squirtel added and saved
-User: 
-id = 2
- name = miguelB
- surname = angelB
- username = miguelBB
- password = migue456
- email = miguelB@miguel.es
- listEtakemon = [Controller.EtakemonObject@7f63a076]
- 
-User updated
-User: 
-id = 2
- name = miguelB
- surname = angelB
- username = miguelBB
- password = migue456
- email = miguelB@miguel.es
- listEtakemon = [Controller.EtakemonObject@7f63a076, Controller.EtakemonObject@1c1d54bc]
- 
-Etakemon Bulbasur added and saved
-User: 
-id = 2
- name = miguelB
- surname = angelB
- username = miguelBB
- password = migue456
- email = miguelB@miguel.es
- listEtakemon = [Controller.EtakemonObject@7f63a076, Controller.EtakemonObject@1c1d54bc]
- 
-Usuario creado
-con parametros Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.es
-User: 
-id = 3
+id = 0
  name = miguelC
  surname = angelC
  username = miguelCC
@@ -141,17 +360,1610 @@ id = 3
  email = miguelC@miguel.es
  listEtakemon = []
  
+Try addObect with name = Articuno
+Something wrong ocurred adding object
+Try addObect with name = Zapdos
+Something wrong ocurred adding object
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try addObect with name = Charmander
+Etakemon Charmander added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Charmander
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Pikachu
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 2 obtenido correctamente:
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = [Model.EtakemonObject@3c5ff602]
+ 
+Try addObect with name = Squirtel
+Etakemon Squirtel added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Squirtel
+ 
+Try addObect with name = Bulbasur
+Etakemon Bulbasur added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Bulbasur
+ 
+Try create user with paramenters: Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = [Model.EtakemonObject@1ef2ad44, Model.EtakemonObject@5708485e, Model.EtakemonObject@3d482283]
+ 
+Try addObect with name = Charmander
+Etakemon Charmander added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Charmander
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Pikachu
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try addObect with name = Charmander
+Etakemon Charmander added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Charmander
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Pikachu
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 2 obtenido correctamente:
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = [Model.EtakemonObject@7219ee0]
+ 
+Try addObect with name = Squirtel
+Etakemon Squirtel added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Squirtel
+ 
+Try addObect with name = Bulbasur
+Etakemon Bulbasur added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Bulbasur
+ 
+Try create user with paramenters: Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguel Surname: angel Username: miguelSuper Password: 1234 Email: testUsuario created
+with params:
+User: 
+id = 0
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguel Surname: angel Username: miguelSuper Password: 1234 Email: testUsuario created
+with params:
+User: 
+id = 0
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = [Model.EtakemonObject@6082f1a6, Model.EtakemonObject@17e525f9, Model.EtakemonObject@18ef7692]
+ 
+Try get all users
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 3
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 3
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 4
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 3
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 4
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
+ User obtained
+User: 
+id = 5
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
+ 
+Try get all users
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 3
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 3
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 4
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 3
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 4
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
+ User obtained
+User: 
+id = 5
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
+ 
+Try get all users
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 3
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 3
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 4
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 3
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 4
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
+ User obtained
+User: 
+id = 5
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 0
+ name = test
+ surname = test
+ username = test
+ password = test
+ email = miguelA@test.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 0
+ name = test
+ surname = test
+ username = test
+ password = test
+ email = miguelA@test.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 0
+ name = test
+ surname = test
+ username = test
+ password = test
+ email = miguelA@test.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try addObect with name = Charmander
+Etakemon Charmander added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Charmander
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Pikachu
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 2 obtenido correctamente:
+User: 
+id = 2
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = [Model.EtakemonObject@75b60b5e]
+ 
+Try addObect with name = Squirtel
+Etakemon Squirtel added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Squirtel
+ 
+Try addObect with name = Bulbasur
+Etakemon Bulbasur added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Bulbasur
+ 
+Try create user with paramenters: Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try addObect with name = Charmander
+Etakemon Charmander added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Charmander
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Pikachu
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 2 obtenido correctamente:
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = [Model.EtakemonObject@25b9237c]
+ 
+Try addObect with name = Squirtel
+Etakemon Squirtel added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Squirtel
+ 
+Try addObect with name = Bulbasur
+Etakemon Bulbasur added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Bulbasur
+ 
+Try create user with paramenters: Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try addObect with name = Charmander
+Etakemon Charmander added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Charmander
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Pikachu
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 2 obtenido correctamente:
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = [Model.EtakemonObject@15d2014c]
+ 
+Try addObect with name = Squirtel
+Etakemon Squirtel added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Squirtel
+ 
+Try addObect with name = Bulbasur
+Etakemon Bulbasur added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Bulbasur
+ 
+Try create user with paramenters: Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try addObect with name = Charmander
+Etakemon Charmander added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Charmander
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Pikachu
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 2 obtenido correctamente:
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = [Model.EtakemonObject@2bddc213]
+ 
+Try addObect with name = Squirtel
+Etakemon Squirtel added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Squirtel
+ 
+Try addObect with name = Bulbasur
+Etakemon Bulbasur added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Bulbasur
+ 
+Try create user with paramenters: Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try addObect with name = Charmander
+Etakemon Charmander added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Charmander
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Pikachu
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 2 obtenido correctamente:
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = [Model.EtakemonObject@45e6c223]
+ 
+Try addObect with name = Squirtel
+Etakemon Squirtel added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Squirtel
+ 
+Try addObect with name = Bulbasur
+Etakemon Bulbasur added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Bulbasur
+ 
+Try create user with paramenters: Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try addObect with name = Charmander
+Etakemon Charmander added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Charmander
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Pikachu
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 2 obtenido correctamente:
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = [Model.EtakemonObject@25b9237c]
+ 
+Try addObect with name = Squirtel
+Etakemon Squirtel added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Squirtel
+ 
+Try addObect with name = Bulbasur
+Etakemon Bulbasur added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Bulbasur
+ 
+Try create user with paramenters: Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try addObect with name = Charmander
+Etakemon Charmander added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Charmander
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Pikachu
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 2 obtenido correctamente:
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Try addObect with name = Squirtel
+Etakemon Squirtel added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Squirtel
+ 
+Try addObect with name = Bulbasur
+Etakemon Bulbasur added
+EtakemonObject: 
+idEtakemon = 0
+ id = 2
+ nameEtakemon = Bulbasur
+ 
+Try create user with paramenters: Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 3 obtenido correctamente:
+User: 
+id = 3
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+Try addObect with name = Articuno
+Etakemon Articuno added
+EtakemonObject: 
+idEtakemon = 0
+ id = 3
+ nameEtakemon = Articuno
+ 
+Try addObect with name = Zapdos
+Etakemon Zapdos added
+EtakemonObject: 
+idEtakemon = 0
+ id = 3
+ nameEtakemon = Zapdos
+ 
+Try create user with paramenters: Name: miguel Surname: angel Username: miguelSuper Password: 1234 Email: testUsuario created
+with params:
+User: 
+id = 0
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 0
+ name = test
+ surname = test
+ username = test
+ password = test
+ email = miguelA@test.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 0
+ name = test
+ surname = test
+ username = test
+ password = test
+ email = miguelA@test.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 0
+ name = test
+ surname = test
+ username = test
+ password = test
+ email = miguelA@test.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User doesn't updatedUser updated
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
 User updated
 User: 
-id = 3
- name = miguelC
- surname = angelC
- username = miguelCC
- password = miguel789
- email = miguelC@miguel.es
- listEtakemon = [Controller.EtakemonObject@1adaba4a]
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
  
-Etakemon Articuno added and saved
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = [Model.EtakemonObject@3bb0804c, Model.EtakemonObject@66356fda]
+ 
+Try get all users
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ User obtained
 User: 
 id = 3
  name = miguelC
@@ -159,25 +1971,342 @@ id = 3
  username = miguelCC
  password = miguel789
  email = miguelC@miguel.es
- listEtakemon = [Controller.EtakemonObject@1adaba4a]
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 3
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 4
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = [Model.EtakemonObject@2e63c63d, Model.EtakemonObject@7949eda3]
+ 
+Try addObect with name = Raichu
+Etakemon Raichu added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Raichu
+ 
+Lista etakemonObject Obtenida correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Lista etakemonObject Obtenida correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Lista etakemonObject Obtenida correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = [Model.EtakemonObject@551c763f, Model.EtakemonObject@ea00ef6, Model.EtakemonObject@2b844e0]
+ 
+Lista etakemonObject Obtenida correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = [Model.EtakemonObject@64bfd480, Model.EtakemonObject@5224eba6]
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = [Model.EtakemonObject@1cab65b2, Model.EtakemonObject@5f6b3677, Model.EtakemonObject@1f9e136e]
+ 
+Try get all users
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 3
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ 
+User obtained
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 2
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 3
+ name = miguelC
+ surname = angelC
+ username = miguelCC
+ password = miguel789
+ email = miguelC@miguel.es
+ listEtakemon = []
+ User obtained
+User: 
+id = 4
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = [Model.EtakemonObject@2d41a1, Model.EtakemonObject@24b2e2f3, Model.EtakemonObject@21af6f38]
+ 
+Lista etakemonObject Obtenida correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = [Model.EtakemonObject@44d6c13a, Model.EtakemonObject@2e9ca048]
+ 
+Try create user with paramenters: Name: miguel Surname: angel Username: miguelSuper Password: 1234 Email: testUsuario created
+with params:
+User: 
+id = 0
+ name = miguel
+ surname = angel
+ username = miguelSuper
+ password = 1234
+ email = test
+ listEtakemon = []
  
 User updated
 User: 
-id = 3
- name = miguelC
- surname = angelC
- username = miguelCC
- password = miguel789
- email = miguelC@miguel.es
- listEtakemon = [Controller.EtakemonObject@1adaba4a, Controller.EtakemonObject@34a1c71e]
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
  
-Etakemon Zapdos added and saved
+Usuario con id: 1 obtenido correctamente:
 User: 
-id = 3
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = [Model.EtakemonObject@59cdf61e, Model.EtakemonObject@19d404ca, Model.EtakemonObject@2ce4164d]
+ 
+Try addObect with name = CHARIZAR
+Etakemon CHARIZAR added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = CHARIZAR
+ 
+Try create user with paramenters: Name: miguelA Surname: angelA Username: miguelAA Password: miguel123 Email: miguelA@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelB Surname: angelB Username: miguelBB Password: migue456 Email: miguelB@miguel.esUsuario created
+with params:
+User: 
+id = 0
+ name = miguelB
+ surname = angelB
+ username = miguelBB
+ password = migue456
+ email = miguelB@miguel.es
+ listEtakemon = []
+ 
+Try create user with paramenters: Name: miguelC Surname: angelC Username: miguelCC Password: miguel789 Email: miguelC@miguel.esUsuario created
+with params:
+User: 
+id = 0
  name = miguelC
  surname = angelC
  username = miguelCC
  password = miguel789
  email = miguelC@miguel.es
- listEtakemon = [Controller.EtakemonObject@1adaba4a, Controller.EtakemonObject@34a1c71e]
+ listEtakemon = []
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = [Model.EtakemonObject@19bb089b, Model.EtakemonObject@4563e9ab, Model.EtakemonObject@11531931, Model.EtakemonObject@5e025e70]
+ 
+Try addObect with name = Pikachu
+Etakemon Pikachu added
+EtakemonObject: 
+idEtakemon = 0
+ id = 1
+ nameEtakemon = Pikachu
+ 
+Usuario con id: 1 obtenido correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = [Model.EtakemonObject@d041cf, Model.EtakemonObject@129a8472, Model.EtakemonObject@1b0375b3, Model.EtakemonObject@2f7c7260, Model.EtakemonObject@2d209079]
+ 
+Lista etakemonObject Obtenida correctamente:
+User: 
+id = 1
+ name = miguelA
+ surname = angelA
+ username = miguelAA
+ password = miguel123
+ email = miguelA@miguel.es
+ listEtakemon = [Model.EtakemonObject@19bb089b, Model.EtakemonObject@4563e9ab, Model.EtakemonObject@11531931, Model.EtakemonObject@5e025e70, Model.EtakemonObject@6bdf28bb]
  

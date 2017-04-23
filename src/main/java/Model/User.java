@@ -1,7 +1,5 @@
 package Model;
 
-import Controller.EtakemonObject;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,6 +18,15 @@ public class User {
 
     public User(){}
 
+    public User(String name, String surname, String username, String password, String email)
+    {
+        setId(0);
+        setName(name);
+        setSurname(surname);
+        setUsername(username);
+        setPassword(password);
+        setEmail(email);
+    }
     public User(int id, String name, String surname, String username, String password, String email)
     {
         setId(id);
@@ -88,6 +95,8 @@ public class User {
     {
         listEtakemon.add(etakemonObject);
     }
+
+    public void setEtakemonList(List<EtakemonObject> list){this.listEtakemon = list;}
     public List<EtakemonObject> getListEtakemon()
     {
         return this.listEtakemon;

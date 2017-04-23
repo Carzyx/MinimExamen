@@ -3,7 +3,7 @@ package Rest;
 
 import Controller.EtakemonManager;
 import Controller.EtakemonManagerImpl;
-import Controller.EtakemonObject;
+import Model.EtakemonObject;
 import Model.User;
 
 import javax.ws.rs.*;
@@ -16,11 +16,11 @@ import java.util.List;
  */
 @Path("service")
 public class RestService {
-    private EtakemonManager service = new EtakemonManagerImpl();
+    private EtakemonManager service = EtakemonManagerImpl.getInstance();
 
     public RestService()
     {
-        service.LoadUsers();
+        //service.LoadUsers();
     }
 
 

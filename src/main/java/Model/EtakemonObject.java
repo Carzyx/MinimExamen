@@ -1,23 +1,25 @@
-package Controller;
+package Model;
 
 /**
  * Created by Miguel Angel on 19/04/2017.
  */
 public class EtakemonObject {
+    private int idEtakemon;
     private int id;
     private String nameEtakemon;
 
     public EtakemonObject(){}
     public EtakemonObject(int id, String name)
     {
-        this.id = id;
-        this.nameEtakemon = name;
+        setId(id);
+        setNameEtakemon(name);
     }
 
-    public int getId(int id)
+    public int getId()
     {
         return this.id;
     }
+    public void setId(int id){this.id = id;}
 
     public String getNameEtakemon()
     {
@@ -27,4 +29,9 @@ public class EtakemonObject {
     {
         this.nameEtakemon = name;
     }
+    public int getIdEtakemon()
+    {
+        return this.idEtakemon;
+    }
+    public void setIdEtakemon(int idEtakemon){this.idEtakemon = idEtakemon;}
 }

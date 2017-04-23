@@ -1,22 +1,34 @@
 package Controller;
 
+import DAO.GenericDaoImpl;
+import DAO.IGenericDao;
+import Model.EtakemonObject;
 import Model.User;
 import org.apache.log4j.Logger;
 
 import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by Miguel Angel on 19/04/2017.
  */
 public class EtakemonManagerImpl implements EtakemonManager {
-    private int userIdCount = 1;
-    private int etakemonIdCount = 1;
 
-    private HashMap<Integer, User> listUser = new HashMap<Integer, User>();
+
     final static Logger logger = Logger.getLogger(EtakemonManagerImpl.class);
+    private static final EtakemonManagerImpl etakemonManagerImplInstance = null;
+    private HashMap<Integer, User> hasMapUsers = new HashMap<>();
+
+    private EtakemonManagerImpl(){}
+
+    public static EtakemonManagerImpl getInstance()
+    {
+        if(etakemonManagerImplInstance == null)
+        {
+            return new EtakemonManagerImpl();
+        }
+        return etakemonManagerImplInstance;
+    }
 
     public void LoadUsers()
     {
@@ -34,46 +46,72 @@ public class EtakemonManagerImpl implements EtakemonManager {
         addObject(userC, "Zapdos");
     }
 
+    private final IGenericDao<User> serviceUser = new GenericDaoImpl<User>();
+    private final IGenericDao<EtakemonObject> serviceEtakemonObject = new GenericDaoImpl<EtakemonObject>();
+
 
     public boolean createUser(String name, String surname, String username, String password, String email) {
-
-        User user = new User(userIdCount, name, surname, username, password, email);
-        listUser.put(user.getId(), user);
-        userIdCount++;
-
         StringBuffer message = new StringBuffer();
-        message.append("Usuario creado");
-        message.append("\n");
-        message.append("con parametros Name: "+name+" Surname: "+surname+" Username: "+username+" Password: "+password+" Email: "+email);
-        logMessage(user, message);
+        message.append("Try create user with paramenters: Name: "+name+" Surname: "+surname+" Username: "+username+" Password: "+password+" Email: "+email);
 
-        return true;
+        User user = new User(name, surname, username, password, email);
+        boolean result = serviceUser.add(user);
+
+        if(!result)
+        {
+            return result;
+        }
+
+        message.append("Usuario created");
+        message.append("\n");
+        message.append("with params:") ;
+        logMessage(user, message);
+        return result;
     }
 
     public boolean updateUser(User newUser) {
         StringBuffer message = new StringBuffer();
+        User user = serviceUser.getById(newUser, newUser.getId());
 
-        if (!listUser.containsKey(newUser.getId())) {
+        if (user == null) {
 
             message.append("User doesn't exist");
             logMessage(newUser, message);
             return false;
         }
 
-        listUser.put(newUser.getId(), newUser);
+       boolean result = serviceUser.updateById(user, user.getId());
+        if(!result)
+        {
+            message.append("User doesn't updated");
+
+        }
         message.append("User updated");
         logMessage(newUser, message);
-        return true;
+        return result;
     }
 
     public User getUser(int id) {
         StringBuffer message = new StringBuffer();
+        User user = new User();
+        user = serviceUser.getById(user, id);
 
-        if (!listUser.containsKey(id)) {
+        if(user.getUsername() == null || user.getUsername().isEmpty())
+        {
             logger.info("User with id: "+id+" doesn't exist");
             return null;
         }
-        User user = listUser.get(id);
+
+        List<EtakemonObject> listEtakemonObject = serviceEtakemonObject.getAll(new EtakemonObject());
+        List<EtakemonObject> listToAdd = new ArrayList<>();
+        for (EtakemonObject item: listEtakemonObject) {
+            if(item.getId() == user.getId())
+            {
+                listToAdd.add(item);
+            }
+        }
+        user.setListEtakemon(listToAdd);
+
         message.append("Usuario con id: "+id+" obtenido correctamente:");
         logMessage(user, message);
         return user;
@@ -81,40 +119,47 @@ public class EtakemonManagerImpl implements EtakemonManager {
 
     public boolean addObject(User user, String etakemonName) {
         StringBuffer message = new StringBuffer();
-        if(!listUser.containsKey(user.getId()))
+        User userObtained = serviceUser.getById(user, user.getId());
+        logger.info("Try addObect with name = "+etakemonName);
+
+        if(user.getUsername() == null || user.getUsername().isEmpty())
         {
             message.append("User doesn't exist");
             logMessage(user, message);
             return false;
         }
 
-        EtakemonObject etakemon = new EtakemonObject(etakemonIdCount, etakemonName);
+        EtakemonObject etakemon = new EtakemonObject(user.getId(), etakemonName);
+        boolean result = serviceEtakemonObject.add(etakemon);
+
+        if(!result)
+        {
+            logger.info("Something wrong ocurred adding object");
+            return false;
+        }
+        etakemon = serviceEtakemonObject.getById(etakemon, etakemon.getIdEtakemon());
         user.setEtakemonObject(etakemon);
-        etakemonIdCount++;
 
-        updateUser(user);
-
-        message.append("Etakemon "+etakemonName+" added and saved");
-        logMessage(user, message);
+        message.append("Etakemon "+etakemonName+" added");
+        logMessage(etakemon, message);
         return true;
     }
 
     public List<User> getUserList() {
-        try {
-            List<User> list = new ArrayList<User>();
+        StringBuffer message = new StringBuffer();
+        logger.info("Try get all users");
 
-            for (int i = 1; i <= listUser.size(); i++) {
-                if (listUser.containsKey(i)) {
-                    User user = listUser.get(i);
-                    list.add(user);
-                }
+        List<User> listUser = new ArrayList<>();
+        listUser = serviceUser.getAll(new User());
+
+        if(listUser.size()>0)
+        {
+            for (User user:listUser) {
+                hasMapUsers.put(user.getId(), user);
+                logMessage(user, message.append("User obtained"));
             }
-            return list;
         }
-        catch (Exception ex) {
-            logger.error("Error obteniendo lista de usuarios", ex);
-            return null;
-        }
+        return listUser;
 
     }
 
@@ -126,19 +171,19 @@ public class EtakemonManagerImpl implements EtakemonManager {
             logMessage(user, message);
             return null;
         }
-
-        List<EtakemonObject> list = user.getListEtakemon();
+        User userResponse = getUser(user.getId());
+        List<EtakemonObject> list = userResponse.getListEtakemon();
         message.append("Lista etakemonObject Obtenida correctamente:");
         logMessage(user, message);
         return list;
     }
 
 
-    private void logMessage(User user, StringBuffer message) {
+    private void logMessage(Object item, StringBuffer message) {
 
         try {
             message.append("\n");
-            Class nameClass = user.getClass();
+            Class nameClass = item.getClass();
             String simpleNameClass = nameClass.getSimpleName();
             message.append(simpleNameClass);
             message.append(": ");
@@ -149,7 +194,7 @@ public class EtakemonManagerImpl implements EtakemonManager {
                 message.append(propertyClass[i].getName());
                 message.append(" = ");
                 propertyClass[i].setAccessible(true);
-                message.append(propertyClass[i].get(user));
+                message.append(propertyClass[i].get(item));
                 message.append("\n ");
             }
             logger.info(message);
@@ -157,5 +202,7 @@ public class EtakemonManagerImpl implements EtakemonManager {
             logger.error("Error log message", ex);
         }
     }
+
+
 
 }

@@ -1,8 +1,7 @@
 import Controller.EtakemonManagerImpl;
-import Controller.EtakemonObject;
+import Model.EtakemonObject;
 import Model.User;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -14,7 +13,7 @@ import static junit.framework.Assert.assertEquals;
  * Created by Miguel Angel on 19/04/2017.
  */
 public class EtakemonManagerImplTest {
-    static EtakemonManagerImpl defaulServiceEetakemon = new EtakemonManagerImpl();
+    static EtakemonManagerImpl defaulServiceEetakemon = EtakemonManagerImpl.getInstance();
 
     @BeforeClass
     public static void setUp()

@@ -39,5 +39,6 @@
     <orderEntry type="library" name="Maven: org.eclipse.persistence:org.eclipse.persistence.core:2.6.0" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.persistence:org.eclipse.persistence.asm:2.6.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish:javax.json:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.40" level="project" />
   </component>
 </module>
